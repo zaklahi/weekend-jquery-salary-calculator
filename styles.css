@@ -1,0 +1,38 @@
+body {
+    color: purple;
+}
+
+header {
+    text-align: center;
+    background-color: mediumpurple;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    
+}
+
+input[type=text] {
+    width: 15%;
+    padding: 4px 4px;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: grey;
+    color: black;
+}
